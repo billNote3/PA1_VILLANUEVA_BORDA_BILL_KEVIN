@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Descubre los lugares turísticos más encantadores de Ayacucho, Perú.">
+  <title>Lugares con Encanto | Ayacucho, Perú</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Framework: Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="90" tabindex="0">
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar" aria-label="Principal">
+      <div class="container">
+        <a class="navbar-brand" href="#inicio">Lugares con Encanto</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#destinos">Destinos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#viaja">Viaja</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container text-center">
+        <p class="eyebrow">Ayacucho - Perú</p>
+        <h1>La Ciudad de las 33 Iglesias</h1>
+        <p class="lead">Explora los destinos emblemáticos de Ayacucho: historia viva, naturaleza exuberante y la calidez de sus pueblos ancestrales.</p>
+        <a href="#destinos" class="btn btn-outline-light btn-elegant">Explorar destinos</a>
+      </div>
+      <a href="#ayacucho" class="scroll-hint" aria-label="Bajar">&#8595;</a>
+    </section>
+
+    <section id="destinos" class="section section-alt">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="eyebrow">Destinos</p>
+          <h2>Lugares para descubrir</h2>
+        </div>
+
+        <div class="filters text-center mb-5" role="group" aria-label="Filtrar destinos">
+          <button class="filter active" data-filter="todos">Todos</button>
+          <button class="filter" data-filter="naturaleza">Naturaleza</button>
+          <button class="filter" data-filter="historia">Historia</button>
+          <button class="filter" data-filter="cultura">Cultura</button>
+        </div>
+
+        <div class="row g-4" id="grid">
+          <div class="col-md-6 col-lg-4 card-wrap" data-category="naturaleza">              
+            <article class="place reveal">
+              <div class="place-body">
+              <img src="https://www.civitatis.com/f/peru/ayacucho/excursion-puncupata-589x392.jpg"
+              alt="Mirador de Puncupata" class="img-fluid rounded mb-3">
+                <span class="tag">Naturaleza</span>
+                <h3>Puncupata</h3>
+                <p>Un mirador natural para contemplar el paisaje ayacuchano y respirar aire andino.</p>
+                <button class="btn-link-elegant" data-title="Puncupata" data-tag="Naturaleza"
+                  data-text="Puncupata es un lugar ideal para disfrutar de vistas panorámicas, fotografía y descanso al aire libre. Se recomienda ir en horas de la mañana o al atardecer."
+                  data-tip="Lleva abrigo: el viento andino refresca al caer la tarde.">Ver más</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 card-wrap" data-category="historia">
+            <article class="place reveal">
+              <div class="place-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNtkCt6L9IFVYLqPukULcOtyeFuY95BQo26T_m8YOuyJU_zCDrU2okmiQ&s=10"
+              alt="Santuario Histórico y Obelisco de Quinua" class="img-fluid rounded mb-3">
+                <span class="tag">Historia</span>
+                <h3>Pampa de Ayacucho</h3>
+                <p>Santuario Histórico y Obelisco de Quinua, donde se selló la independencia en 1824.</p>
+                <button class="btn-link-elegant" data-title="Santuario Histórico Pampa de Ayacucho" data-tag="Historia"
+                  data-text="En esta pampa, cerca del pueblo de Quinua, se libró la Batalla de Ayacucho el 9 de diciembre de 1824. Un obelisco conmemora la victoria y el sitio cuenta con un pequeño museo."
+                  data-tip="Combina la visita con el pueblo de Quinua, famoso por su cerámica.">Ver más</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 card-wrap" data-category="naturaleza">
+            <article class="place reveal">
+            <div class="place-body">
+                <img src="https://www.ytuqueplanes.com/imagenes/fotos/novedades/YTQP_Millpu.jpg"
+              alt="Piscinas de Millpu" class="img-fluid rounded mb-3">
+                <span class="tag">Naturaleza</span>
+                <h3>Piscinas de Millpu</h3>
+                <p>Pozas naturales de aguas cristalinas rodeadas de verde, perfectas para desconectar.</p>
+                <button class="btn-link-elegant" data-title="Piscinas Naturales de Millpu" data-tag="Naturaleza"
+                  data-text="Un rincón de agua y vegetación pensado para el descanso y el contacto con la naturaleza. Es un destino muy buscado por familias y viajeros en busca de tranquilidad."
+                  data-tip="Lleva ropa de baño, protector solar y calzado cómodo.">Ver más</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 card-wrap" data-category="cultura">
+            <article class="place reveal">
+              <div class="place-body">
+                <img src="https://huancaraylla.com.pe/wp-content/uploads/2022/05/MIRADOR-HUANTA.jpg"
+              alt="Huanta, la Esmeralda de los Andes" class="img-fluid rounded mb-3">
+                <span class="tag">Cultura</span>
+                <h3>Huanta</h3>
+                <p>La “Esmeralda tendida en los Andes”: valle verde, clima templado y gran tradición.</p>
+                <button class="btn-link-elegant" data-title="Huanta, la Esmeralda de los Andes" data-tag="Cultura"
+                  data-text="Huanta es conocida por su valle fértil, su clima agradable y su gastronomía. Es una parada perfecta para quienes buscan costumbres vivas y paisajes verdes."
+                  data-tip="Prueba la gastronomía local en sus mercados y restaurantes campestres.">Ver más</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 card-wrap" data-category="historia">
+            <article class="place reveal">
+              <div class="place-body">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgwOM6AUD60RUSUl5f0c774eIkmOVHvKSxr-ox_AdtjaeWgjO-P9VItF4&s=10" alt="Complejo arqueológico de Wari" class="img-fluid rounded mb-3">
+                <span class="tag">Historia</span>
+                <h3>Wari</h3>
+                <p>Capital del imperio Wari, anterior a los incas, con muros y recintos de gran escala.</p>
+                <button class="btn-link-elegant" data-title="Complejo arqueológico de Wari" data-tag="Historia"
+                  data-text="Wari fue el centro de una de las culturas más influyentes de los Andes, siglos antes del Tahuantinsuyo. Sus restos muestran una planificación urbana notable."
+                  data-tip="Ideal para visitar con guía y en horas de menos sol.">Ver más</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 card-wrap" data-category="historia">
+            <article class="place reveal">
+              <div class="place-body">
+                <img src="https://huancaraylla.com.pe/wp-content/uploads/2022/05/ayacucho-11-1.jpg" alt="Vilcashuamán" class="img-fluid rounded mb-3">
+                <span class="tag">Historia</span>
+                <h3>Vilcashuamán</h3>
+                <p>Antiguo centro administrativo inca con su ushnu y el Templo del Sol y la Luna.</p>
+                <button class="btn-link-elegant" data-title="Vilcashuamán" data-tag="Historia"
+                  data-text="Importante centro inca donde destacan el ushnu (plataforma ceremonial) y una iglesia colonial levantada sobre el antiguo templo, símbolo del encuentro de dos mundos."
+                  data-tip="Verifica horarios y transporte desde Ayacucho antes de salir.">Ver más</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="viaja" class="section">
+      <div class="container">
+        <div class="text-center mb-5 reveal">
+          <p class="eyebrow">Viaja</p>
+          <h2>Consejos para tu visita</h2>
+        </div>
+        <div class="row g-4 text-center">
+          <div class="col-md-4 reveal"><h3 class="h5">Cómo llegar</h3><p>Vuelo directo Lima–Ayacucho o viaje terrestre por la Vía de los Libertadores.</p></div>
+          <div class="col-md-4 reveal"><h3 class="h5">Mejor época</h3><p>De mayo a octubre predomina el clima seco, ideal para recorrer los destinos.</p></div>
+          <div class="col-md-4 reveal"><h3 class="h5">Altura</h3><p>Descansa el primer día, bebe agua y evita comidas pesadas para aclimatarte.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <p class="mb-1">Lugares con Encanto - Ayacucho, Perú</p>
+      <small>Producto Académico 1 - Universidad Continental</small>
+    </div>
+  </footer>
+
+  <button id="top" class="to-top" aria-label="Volver arriba">&#8593;</button>
+
+  <div class="modal fade" id="modalLugar" tabindex="-1" aria-labelledby="modalTitulo" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <div>
+            <span class="tag" id="modalTag"></span>
+            <h3 class="modal-title" id="modalTitulo"></h3>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <p id="modalTexto"></p>
+          <p class="tip"><strong>Consejo:</strong> <span id="modalTip"></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
